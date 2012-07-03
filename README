@@ -1,0 +1,14 @@
+The SFD files can be opened and edited in fontforge.
+The TTF files can be installed using the command:
+# cp *.ttf /usr/share/fonts/TTF/
+
+Braille-cs is standard Czech Braille.
+
+The others are my various attempts to make the fonts more legible on my low res tactile printer: http://schedule2012.rmll.info/Cooking-Braille-in-your-kitchen?lang=en
+
+For example, braille-tubes-cs, was intended to make it easier to find the line you were reading by adding tubes for your fingers to travel down before capital letters.  Braille-long-rotate-cs was just the letters rotated to the left 90 degrees.
+
+All fonts are released into the public domain:
+CREATIVE COMMONS ZERO
+
+See LICENCE
