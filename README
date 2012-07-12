@@ -1,6 +1,16 @@
 The SFD files can be opened and edited in fontforge.
-The TTF files can be installed using the command:
-# cp *.ttf /usr/share/fonts/TTF/
+The OTF files can be installed using the command:
+
+NOTE, this directory is named ttf fonts.  This is a misnomer.  I used to encode these as ttf, but then ran into weird problems, so I have re-encoded them otf...
+
+# mkdir /usr/share/fonts/OTF/
+# cp *.otf /usr/share/fonts/OTF/
+
+You may need to regenerate your font cache after this:
+
+# fc-cache -f -s > /dev/null
+# mkfontscale /usr/share/fonts/OTF
+# mkfontdir /usr/share/fonts/OTF
 
 Braille-cs is standard Czech Braille.
 
